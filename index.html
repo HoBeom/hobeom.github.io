@@ -175,6 +175,104 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="ko">
+    <link itemprop="mainEntityOfPage" href="http://hobeom.github.io/2020/06/18/tf-upgrade-v2-cp949-window10/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jeon Ho Beom">
+      <meta itemprop="description" content="경험을 존중하며 질문을 멈추지 않고 호기심과 상상력을 내 무기로 만들자">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="HOBE-NOTE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/06/18/tf-upgrade-v2-cp949-window10/" class="post-title-link" itemprop="url">tf upgrade v2 cp949 window10</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+              
+
+              <time title="Post created: 2020-06-18 11:56:49 / Updated at: 12:10:04" itemprop="dateCreated datePublished" datetime="2020-06-18T11:56:49+09:00">2020-06-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/tensorflow/" itemprop="url" rel="index">
+                    <span itemprop="name">tensorflow</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2020/06/18/tf-upgrade-v2-cp949-window10/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/06/18/tf-upgrade-v2-cp949-window10/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Automatically-upgrade-code-to-TensorFlow-2-in-window-10"><a href="#Automatically-upgrade-code-to-TensorFlow-2-in-window-10" class="headerlink" title="Automatically upgrade code to TensorFlow 2 in window 10"></a>Automatically upgrade code to TensorFlow 2 in window 10</h1><h2 id="tf-upgrade-v2-Script-cp949-error"><a href="#tf-upgrade-v2-Script-cp949-error" class="headerlink" title="tf_upgrade_v2 Script cp949 error"></a>tf_upgrade_v2 Script cp949 error</h2><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$</span> tf_upgrade_v2 -<span class="literal">-intree</span> . -<span class="literal">-outtree</span> ../tf2<span class="literal">-upgraded</span> -<span class="literal">-copyotherfiles</span> False</span><br><span class="line"><span class="number">2020</span><span class="literal">-06</span><span class="literal">-18</span> <span class="number">11</span>:<span class="number">35</span>:<span class="number">06.250559</span>: I tensorflow/stream_executor/platform/default/dso_loader.cc:<span class="number">44</span>] Successfully opened dynamic library cud</span><br><span class="line">art64_101.dll</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"C:\Anaconda3\envs\tf2\Scripts\tf_upgrade_v2-script.py"</span>, line <span class="number">10</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">    sys.exit(main())</span><br><span class="line">  File <span class="string">"C:\Anaconda3\envs\tf2\lib\site-packages\tensorflow_core\tools\compatibility\tf_upgrade_v2_main.py"</span>, line <span class="number">160</span>, <span class="keyword">in</span> main</span><br><span class="line">    args.input_tree, output_tree, args.copy_other_files)</span><br><span class="line">  File <span class="string">"C:\Anaconda3\envs\tf2\lib\site-packages\tensorflow_core\tools\compatibility\ast_edits.py"</span>, line <span class="number">1069</span>, <span class="keyword">in</span> process_tree</span><br><span class="line">    _, l_report, l_errors = self.process_file(input_path, output_path)</span><br><span class="line">  File <span class="string">"C:\Anaconda3\envs\tf2\lib\site-packages\tensorflow_core\tools\compatibility\ast_edits.py"</span>, line <span class="number">917</span>, <span class="keyword">in</span> process_file</span><br><span class="line">    temp_file)</span><br><span class="line">  File <span class="string">"C:\Anaconda3\envs\tf2\lib\site-packages\tensorflow_core\tools\compatibility\ast_edits.py"</span>, line <span class="number">975</span>, <span class="keyword">in</span> process_opened_file</span><br><span class="line"></span><br><span class="line">lines = in_file.readlines()</span><br><span class="line"></span><br><span class="line">UnicodeDecodeError: <span class="string">'cp949'</span> codec can<span class="string">'t decode byte 0xec in position 202: illegal multibyte sequence</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>tensorflow_core\tools\compatibility\ast_edits.py\ast_edits.py </p>
+<p>Line 914 </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open(in_filename, <span class="string">"r"</span>) <span class="keyword">as</span> in_file,</span><br></pre></td></tr></table></figure>
+
+<p>edit </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open(in_filename, <span class="string">"r"</span>, encoding=<span class="string">'utf8'</span>) <span class="keyword">as</span> in_file,</span><br></pre></td></tr></table></figure>
+
+<p>full code</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># pylint: disable=g-backslash-continuation</span></span><br><span class="line"><span class="keyword">with</span> open(in_filename, <span class="string">"r"</span>, encoding=<span class="string">'utf8'</span>) <span class="keyword">as</span> in_file, \</span><br><span class="line">    tempfile.NamedTemporaryFile(<span class="string">"w"</span>, delete=<span class="literal">False</span>) <span class="keyword">as</span> temp_file:</span><br><span class="line">  ret = self.process_opened_file(in_filename, in_file, out_filename,</span><br><span class="line">                                 temp_file)</span><br><span class="line"><span class="comment"># pylint: enable=g-backslash-continuation</span></span><br></pre></td></tr></table></figure>
+
+<p>Delete folder exist, before Try tf_upgrade_v2 Script (Recommend PowerShell)</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="ko">
     <link itemprop="mainEntityOfPage" href="http://hobeom.github.io/2020/06/11/Centos8-gitlab/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -535,18 +633,18 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">포스트</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">카테고리</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">태그</span>
       </div>
   </nav>
