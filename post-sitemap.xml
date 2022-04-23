@@ -7,8 +7,15 @@
     </url>
     
     <url>
+        <loc>http://hobeom.github.io/2022/04/23/clean-code-02/</loc>
+        <lastmod>2022-04-23T06:38:51.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
         <loc>http://hobeom.github.io/2022/04/22/clean-code-01/</loc>
-        <lastmod>2022-04-22T07:13:32.212Z</lastmod>
+        <lastmod>2022-04-23T05:16:45.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
