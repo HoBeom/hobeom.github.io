@@ -21,15 +21,15 @@
     var CONFIG = {"hostname":"hobeom.github.io","root":"/","scheme":"Pisces","version":"7.7.1","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="클린코드 챌린지 Day 02오늘 TIL 3줄 요약 궁극적으로 코드는 요구 사항을 상세히 표현하는 수단이자 언어이다. 빨리 가기 위한 유일한 방법은, 언제나 코드를 깨끗하게 유지하는 습관이다. 캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라.  TIL (Today I Learned) 날짜2022.04.23 - 2022.04.23 오늘 읽은 범위1장. 깨">
+  <meta name="description" content="클린코드 챌린지 Day 03오늘 TIL 3줄 요약 코드의 맥락을 파악할 수 있는 좋은 이름은 코드를 읽는 사람에게 지름길을 제공할 수 있다. 의도를 숨기지 말자. 유사한 개념은 유사한 표기법을 사용하여 정보를 나타낼 수 있다. 일관성이 떨어진다면 그릇된 정보가 된다. 자신의 기억력을 자랑하지 마라.  TIL (Today I Learned) 날짜2022.04">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Clean Code 02">
-<meta property="og:url" content="http://hobeom.github.io/2022/04/23/clean-code-02/index.html">
+<meta property="og:title" content="Clean Code 03">
+<meta property="og:url" content="http://hobeom.github.io/2022/04/24/clean-code-03/index.html">
 <meta property="og:site_name" content="HOBE-NOTE">
-<meta property="og:description" content="클린코드 챌린지 Day 02오늘 TIL 3줄 요약 궁극적으로 코드는 요구 사항을 상세히 표현하는 수단이자 언어이다. 빨리 가기 위한 유일한 방법은, 언제나 코드를 깨끗하게 유지하는 습관이다. 캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라.  TIL (Today I Learned) 날짜2022.04.23 - 2022.04.23 오늘 읽은 범위1장. 깨">
+<meta property="og:description" content="클린코드 챌린지 Day 03오늘 TIL 3줄 요약 코드의 맥락을 파악할 수 있는 좋은 이름은 코드를 읽는 사람에게 지름길을 제공할 수 있다. 의도를 숨기지 말자. 유사한 개념은 유사한 표기법을 사용하여 정보를 나타낼 수 있다. 일관성이 떨어진다면 그릇된 정보가 된다. 자신의 기억력을 자랑하지 마라.  TIL (Today I Learned) 날짜2022.04">
 <meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2022-04-23T05:15:33.000Z">
-<meta property="article:modified_time" content="2022-04-26T05:10:42.909Z">
+<meta property="article:published_time" content="2022-04-24T09:15:33.000Z">
+<meta property="article:modified_time" content="2022-04-26T05:07:09.802Z">
 <meta property="article:author" content="Jeon Ho Beom">
 <meta property="article:tag" content="코딩">
 <meta property="article:tag" content="개발자">
@@ -37,7 +37,7 @@
 <meta property="article:tag" content="노개북">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://hobeom.github.io/2022/04/23/clean-code-02/">
+<link rel="canonical" href="http://hobeom.github.io/2022/04/24/clean-code-03/">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>Clean Code 02 | HOBE-NOTE</title>
+  <title>Clean Code 03 | HOBE-NOTE</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158902228-1"></script>
     <script>
@@ -181,7 +181,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="ko">
-    <link itemprop="mainEntityOfPage" href="http://hobeom.github.io/2022/04/23/clean-code-02/">
+    <link itemprop="mainEntityOfPage" href="http://hobeom.github.io/2022/04/24/clean-code-03/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -194,7 +194,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          Clean Code 02
+          Clean Code 03
         </h2>
 
         <div class="post-meta">
@@ -204,14 +204,14 @@
               </span>
               <span class="post-meta-item-text">작성일</span>
 
-              <time title="Post created: 2022-04-23 14:15:33" itemprop="dateCreated datePublished" datetime="2022-04-23T14:15:33+09:00">2022-04-23</time>
+              <time title="Post created: 2022-04-24 18:15:33" itemprop="dateCreated datePublished" datetime="2022-04-24T18:15:33+09:00">2022-04-24</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Updated at: 2022-04-26 14:10:42" itemprop="dateModified" datetime="2022-04-26T14:10:42+09:00">2022-04-26</time>
+                <time title="Updated at: 2022-04-26 14:07:09" itemprop="dateModified" datetime="2022-04-26T14:07:09+09:00">2022-04-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -234,8 +234,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2022/04/23/clean-code-02/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/04/23/clean-code-02/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2022/04/24/clean-code-03/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/04/24/clean-code-03/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -250,23 +250,23 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="클린코드-챌린지-Day-02"><a href="#클린코드-챌린지-Day-02" class="headerlink" title="클린코드 챌린지 Day 02"></a>클린코드 챌린지 Day 02</h1><h2 id="오늘-TIL-3줄-요약"><a href="#오늘-TIL-3줄-요약" class="headerlink" title="오늘 TIL 3줄 요약"></a>오늘 TIL 3줄 요약</h2><ul>
-<li>궁극적으로 코드는 요구 사항을 상세히 표현하는 수단이자 언어이다.</li>
-<li>빨리 가기 위한 유일한 방법은, 언제나 코드를 깨끗하게 유지하는 습관이다.</li>
-<li>캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라.</li>
+        <h1 id="클린코드-챌린지-Day-03"><a href="#클린코드-챌린지-Day-03" class="headerlink" title="클린코드 챌린지 Day 03"></a>클린코드 챌린지 Day 03</h1><h2 id="오늘-TIL-3줄-요약"><a href="#오늘-TIL-3줄-요약" class="headerlink" title="오늘 TIL 3줄 요약"></a>오늘 TIL 3줄 요약</h2><ul>
+<li>코드의 맥락을 파악할 수 있는 좋은 이름은 코드를 읽는 사람에게 지름길을 제공할 수 있다. 의도를 숨기지 말자.</li>
+<li>유사한 개념은 유사한 표기법을 사용하여 정보를 나타낼 수 있다. 일관성이 떨어진다면 그릇된 정보가 된다.</li>
+<li>자신의 기억력을 자랑하지 마라.</li>
 </ul>
-<h2 id="TIL-Today-I-Learned-날짜"><a href="#TIL-Today-I-Learned-날짜" class="headerlink" title="TIL (Today I Learned) 날짜"></a>TIL (Today I Learned) 날짜</h2><p>2022.04.23 - 2022.04.23</p>
-<h2 id="오늘-읽은-범위"><a href="#오늘-읽은-범위" class="headerlink" title="오늘 읽은 범위"></a>오늘 읽은 범위</h2><h3 id="1장-깨끗한-코드"><a href="#1장-깨끗한-코드" class="headerlink" title="1장. 깨끗한 코드"></a>1장. 깨끗한 코드</h3><h4 id="코드가-존재하리라"><a href="#코드가-존재하리라" class="headerlink" title="코드가 존재하리라"></a>코드가 존재하리라</h4><p>코드를 자동으로 생성하는 기술은 현재에도 많은 연구가 진행되고 있지만 완전히 프로그래머를 대체할 수 없다.<br>요구 사항을 명시하는 작업 자체가 프로그래밍이자 코드이기에 기계가 우리의 의도를 정확하게 꿰뚫어 볼 수 없다. 우리조차 요구사항을 제대로 명시하지 못하고 있기 때문이다.</p>
-<p>💡 코드는 요구 사항을 상세히 표현하는 수단이자 언어이다.</p>
-<h4 id="나쁜-코드로-치르는-대가"><a href="#나쁜-코드로-치르는-대가" class="headerlink" title="나쁜 코드로 치르는 대가"></a>나쁜 코드로 치르는 대가</h4><p>시간을 들여서 깨끗한 코드를 만드는 노력은 비용을 절감할 뿐만 아니라 프로그래머로써 살아남는 길이다.<br>나쁜 코드는 나쁜 코드를 유혹한다.<br>코드가 엉망진창인 상태라면 더 많은 나쁜 코드를 양산할 수밖에 없고 업무 속도를 더욱 더 늦추게된다.</p>
-<p>💡 빨리 가기 위한 유일한 방법은, 언제나 코드를 깨끗하게 유지하는 습관이다.</p>
-<h4 id="보이스카우트-규칙"><a href="#보이스카우트-규칙" class="headerlink" title="보이스카우트 규칙"></a>보이스카우트 규칙</h4><p>잘 짠 코드가 전부는 아니다. 시간이 지나도 언제나 깨끗하게 유지해야 한다. 시간이 지나면서 엉망으로 전략하는 코드는 발생 할 수 있다. 그러므로 우리는 적극적으로 코드의 퇴보를 막아야한다.<br>미국 보이스카우트가 따르는 간단한 규칙이 프로그래머에게도 유용하다.</p>
-<blockquote>
-<p>캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라.</p>
-</blockquote>
-<p>체크아웃할 때보다 좀 더 깨끗한 코드를 체크인한다면 코드는 절대 나빠지지 않는다.<br>한꺼번에 많은 시간과 노력을 투자해 코드를 정리할 필요는 없다.<br>시간이 지날수록 코드가 좋아지는 프로젝트, 지속적인 개선이야 말로 전문가 정신의 본질이다.</p>
-<h2 id="오늘-읽은-소감은-떠오르는-생각을-가볍게-적어보세요"><a href="#오늘-읽은-소감은-떠오르는-생각을-가볍게-적어보세요" class="headerlink" title="오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요"></a>오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요</h2><p>항상 깨끗한 코드를 작성해야한다는 강박이 있었던 것 같다.<br>하지만 보이스카우트 규칙을 읽으며, 개선된 코드를 만드는 노력을 “지속적으로” 하는것이 더 중요함을 깨달았다.<br>조금씩 발전하는 코드에 성취감을 느끼며 퇴보하지 않는 코드를 작성하는 보람을 느끼는 것이 중요하다고 느꼈다.</p>
-<h2 id="궁금한-내용이-있거나-잘-이해되지-않는-내용이-있다면-적어보세요"><a href="#궁금한-내용이-있거나-잘-이해되지-않는-내용이-있다면-적어보세요" class="headerlink" title="궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요."></a>궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요.</h2><p>아름다운 코드란?</p>
+<h3 id="TIL-Today-I-Learned-날짜"><a href="#TIL-Today-I-Learned-날짜" class="headerlink" title="TIL (Today I Learned) 날짜"></a>TIL (Today I Learned) 날짜</h3><p>2022.04.24 - 2022.04.24</p>
+<h2 id="오늘-읽은-범위"><a href="#오늘-읽은-범위" class="headerlink" title="오늘 읽은 범위"></a>오늘 읽은 범위</h2><h3 id="2장-의미-있는-이름"><a href="#2장-의미-있는-이름" class="headerlink" title="2장. 의미 있는 이름"></a>2장. 의미 있는 이름</h3><h4 id="의도를-분명히-밝혀라"><a href="#의도를-분명히-밝혀라" class="headerlink" title="의도를 분명히 밝혀라"></a>의도를 분명히 밝혀라</h4><p>변수나 함수 그리고 클래스 이름은 존재 이유, 수행 기능, 사용 방법을 고민해 보고 선언해야한다. 주석이 필요하다면 그 의도를 분명히 하지 못한 것이다.</p>
+<p>💡 코드의 맥락을 파악할 수 있는 좋은 이름은 코드를 읽는 사람에게 지름길을 제공할 수 있다. 의도를 숨기지 말자.</p>
+<h4 id="그릇된-정보를-피하라"><a href="#그릇된-정보를-피하라" class="headerlink" title="그릇된 정보를 피하라"></a>그릇된 정보를 피하라</h4><p>그릇된 단서는 코드 의미를 흐린다. 나름대로 널리 쓰이는 의미가 있는 단어를 다른 의미로 사용해도 안된다!</p>
+<p>서로 흡사한 이름을 사용하지 않도록 주의한다. 비슷한 이름을 한 모듈에서 같이 사용한다면 매우 헷갈릴 것이다.</p>
+<p>유사한 개념은 유사한 표기법을 사용하여 정보를 나타낼 수 있다. 일관성이 떨어진다면 그릇된 정보가 된다.</p>
+<h4 id="자신의-기억력을-자랑하지-마라"><a href="#자신의-기억력을-자랑하지-마라" class="headerlink" title="자신의 기억력을 자랑하지 마라"></a>자신의 기억력을 자랑하지 마라</h4><p>전문가 프로그래머는 명료함이 최고라는 사실을 이해한다.</p>
+<h5 id="클래스-이름과-객체-이름은-명사나-명사구가-적합하다"><a href="#클래스-이름과-객체-이름은-명사나-명사구가-적합하다" class="headerlink" title="클래스 이름과 객체 이름은 명사나 명사구가 적합하다."></a>클래스 이름과 객체 이름은 명사나 명사구가 적합하다.</h5><h5 id="메서드-이름은-동사나-동사구가-적합하다"><a href="#메서드-이름은-동사나-동사구가-적합하다" class="headerlink" title="메서드 이름은 동사나 동사구가 적합하다."></a>메서드 이름은 동사나 동사구가 적합하다.</h5><h4 id="문제-영역에서-가져온-이름을-사용하라"><a href="#문제-영역에서-가져온-이름을-사용하라" class="headerlink" title="문제 영역에서 가져온 이름을 사용하라"></a>문제 영역에서 가져온 이름을 사용하라</h4><p>적절한 프로그래머 용어가 없다면 문제 영역에서 이름을 가져온다. 문제 영역 개념과 관련이 깊은 코드라면 문제 영역에서 이름을 가져와야 한다.</p>
+<p>암기는 요즘 나오는 IDE를 활용하고, 우리는 문장이나 문단처럼 읽히는 코드 아니면 적어도 표나 자료 구조처럼 읽히는 코드를 짜는 데에 집중해야 마땅하다.</p>
+<h3 id="오늘-읽은-소감은-떠오르는-생각을-가볍게-적어보세요"><a href="#오늘-읽은-소감은-떠오르는-생각을-가볍게-적어보세요" class="headerlink" title="오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요"></a>오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요</h3><p>일관성 있는 이름을 통해 코드를 읽는 프로그래머에서 효과적으로 정보전달이 가능함을 깨달았다.</p>
+<p>명료한 이름을 짓는 꾸준한 연습과 반복적인 수정이 필요할 것 같다..</p>
+<h3 id="궁금한-내용이-있거나-잘-이해되지-않는-내용이-있다면-적어보세요"><a href="#궁금한-내용이-있거나-잘-이해되지-않는-내용이-있다면-적어보세요" class="headerlink" title="궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요."></a>궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요.</h3><p>인터페이스 클래스와 구현 클래스에 왜 인코딩이 필요할까.? 이제는 IDE가 색을 구분하지 않을까?</p>
 
     </div>
 
@@ -288,13 +288,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/04/22/clean-code-01/" rel="prev" title="Clean Code 01">
-      <i class="fa fa-chevron-left"></i> Clean Code 01
+    <a href="/2022/04/23/clean-code-02/" rel="prev" title="Clean Code 02">
+      <i class="fa fa-chevron-left"></i> Clean Code 02
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/04/24/clean-code-03/" rel="next" title="Clean Code 03">
-      Clean Code 03 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -361,7 +358,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-%EC%B1%8C%EB%A6%B0%EC%A7%80-Day-02"><span class="nav-number">1.</span> <span class="nav-text">클린코드 챌린지 Day 02</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-TIL-3%EC%A4%84-%EC%9A%94%EC%95%BD"><span class="nav-number">1.1.</span> <span class="nav-text">오늘 TIL 3줄 요약</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TIL-Today-I-Learned-%EB%82%A0%EC%A7%9C"><span class="nav-number">1.2.</span> <span class="nav-text">TIL (Today I Learned) 날짜</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-%EC%9D%BD%EC%9D%80-%EB%B2%94%EC%9C%84"><span class="nav-number">1.3.</span> <span class="nav-text">오늘 읽은 범위</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%EC%9E%A5-%EA%B9%A8%EB%81%97%ED%95%9C-%EC%BD%94%EB%93%9C"><span class="nav-number">1.3.1.</span> <span class="nav-text">1장. 깨끗한 코드</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%EC%BD%94%EB%93%9C%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%98%EB%A6%AC%EB%9D%BC"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">코드가 존재하리라</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EB%82%98%EC%81%9C-%EC%BD%94%EB%93%9C%EB%A1%9C-%EC%B9%98%EB%A5%B4%EB%8A%94-%EB%8C%80%EA%B0%80"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">나쁜 코드로 치르는 대가</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EB%B3%B4%EC%9D%B4%EC%8A%A4%EC%B9%B4%EC%9A%B0%ED%8A%B8-%EA%B7%9C%EC%B9%99"><span class="nav-number">1.3.1.3.</span> <span class="nav-text">보이스카우트 규칙</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-%EC%9D%BD%EC%9D%80-%EC%86%8C%EA%B0%90%EC%9D%80-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%EC%83%9D%EA%B0%81%EC%9D%84-%EA%B0%80%EB%B3%8D%EA%B2%8C-%EC%A0%81%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94"><span class="nav-number">1.4.</span> <span class="nav-text">오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EA%B6%81%EA%B8%88%ED%95%9C-%EB%82%B4%EC%9A%A9%EC%9D%B4-%EC%9E%88%EA%B1%B0%EB%82%98-%EC%9E%98-%EC%9D%B4%ED%95%B4%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%B4-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%A0%81%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94"><span class="nav-number">1.5.</span> <span class="nav-text">궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요.</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-%EC%B1%8C%EB%A6%B0%EC%A7%80-Day-03"><span class="nav-number">1.</span> <span class="nav-text">클린코드 챌린지 Day 03</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-TIL-3%EC%A4%84-%EC%9A%94%EC%95%BD"><span class="nav-number">1.1.</span> <span class="nav-text">오늘 TIL 3줄 요약</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#TIL-Today-I-Learned-%EB%82%A0%EC%A7%9C"><span class="nav-number">1.1.1.</span> <span class="nav-text">TIL (Today I Learned) 날짜</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-%EC%9D%BD%EC%9D%80-%EB%B2%94%EC%9C%84"><span class="nav-number">1.2.</span> <span class="nav-text">오늘 읽은 범위</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2%EC%9E%A5-%EC%9D%98%EB%AF%B8-%EC%9E%88%EB%8A%94-%EC%9D%B4%EB%A6%84"><span class="nav-number">1.2.1.</span> <span class="nav-text">2장. 의미 있는 이름</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%EC%9D%98%EB%8F%84%EB%A5%BC-%EB%B6%84%EB%AA%85%ED%9E%88-%EB%B0%9D%ED%98%80%EB%9D%BC"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">의도를 분명히 밝혀라</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EA%B7%B8%EB%A6%87%EB%90%9C-%EC%A0%95%EB%B3%B4%EB%A5%BC-%ED%94%BC%ED%95%98%EB%9D%BC"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">그릇된 정보를 피하라</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EC%9E%90%EC%8B%A0%EC%9D%98-%EA%B8%B0%EC%96%B5%EB%A0%A5%EC%9D%84-%EC%9E%90%EB%9E%91%ED%95%98%EC%A7%80-%EB%A7%88%EB%9D%BC"><span class="nav-number">1.2.1.3.</span> <span class="nav-text">자신의 기억력을 자랑하지 마라</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9D%B4%EB%A6%84%EA%B3%BC-%EA%B0%9D%EC%B2%B4-%EC%9D%B4%EB%A6%84%EC%9D%80-%EB%AA%85%EC%82%AC%EB%82%98-%EB%AA%85%EC%82%AC%EA%B5%AC%EA%B0%80-%EC%A0%81%ED%95%A9%ED%95%98%EB%8B%A4"><span class="nav-number">1.2.1.3.1.</span> <span class="nav-text">클래스 이름과 객체 이름은 명사나 명사구가 적합하다.</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%EB%A9%94%EC%84%9C%EB%93%9C-%EC%9D%B4%EB%A6%84%EC%9D%80-%EB%8F%99%EC%82%AC%EB%82%98-%EB%8F%99%EC%82%AC%EA%B5%AC%EA%B0%80-%EC%A0%81%ED%95%A9%ED%95%98%EB%8B%A4"><span class="nav-number">1.2.1.3.2.</span> <span class="nav-text">메서드 이름은 동사나 동사구가 적합하다.</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%EB%AC%B8%EC%A0%9C-%EC%98%81%EC%97%AD%EC%97%90%EC%84%9C-%EA%B0%80%EC%A0%B8%EC%98%A8-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC"><span class="nav-number">1.2.1.4.</span> <span class="nav-text">문제 영역에서 가져온 이름을 사용하라</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EC%98%A4%EB%8A%98-%EC%9D%BD%EC%9D%80-%EC%86%8C%EA%B0%90%EC%9D%80-%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%EC%83%9D%EA%B0%81%EC%9D%84-%EA%B0%80%EB%B3%8D%EA%B2%8C-%EC%A0%81%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94"><span class="nav-number">1.2.2.</span> <span class="nav-text">오늘 읽은 소감은? 떠오르는 생각을 가볍게 적어보세요</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EA%B6%81%EA%B8%88%ED%95%9C-%EB%82%B4%EC%9A%A9%EC%9D%B4-%EC%9E%88%EA%B1%B0%EB%82%98-%EC%9E%98-%EC%9D%B4%ED%95%B4%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%B4-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%A0%81%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94"><span class="nav-number">1.2.3.</span> <span class="nav-text">궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요.</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -505,9 +502,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "http://hobeom.github.io/2022/04/23/clean-code-02/";
-    this.page.identifier = "2022/04/23/clean-code-02/";
-    this.page.title = "Clean Code 02";
+    this.page.url = "http://hobeom.github.io/2022/04/24/clean-code-03/";
+    this.page.identifier = "2022/04/24/clean-code-03/";
+    this.page.title = "Clean Code 03";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
